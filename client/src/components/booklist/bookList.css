@@ -1,0 +1,15 @@
+.bookList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.bookName {
+    font-weight: bold;
+    padding: 10px 0;
+    &:hover {
+        cursor: pointer;
+        color: lightblue;
+    }
+}
